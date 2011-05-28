@@ -1,23 +1,13 @@
 ABOUT THE PROJECT :
-This is a twitter-bot that reads the recent tweets from the specified users. It reads the latest tweets once in 60 seconds. So have the number of users under 5 or 6 to get maximum benefit.
-This is my first Twitter project. Simple but useful.
+This twitter client runs on the terminal occasionally reading the latest tweets from your favourite tweeps.
+This is my first Python project in Git.
 
 HOW TO USE :
-Install the required dependencies
+First install all the required dependencies
 1. python-simplejson
 2. python-httplib2
 3. python-oauth2
 4. python-twitter
-They are just Kbs in size.
 
-Find the four values from your Twitter Account and replace them in the program
-CONSUMER_KEY
-CONSUMER_SECRET
-AGENT_TOKEN_KEY
-AGENT_TOKEN_SECRET
-
-Then open up terminal. 
-Type : python cuiclient.py <handle1> <handle2> ..
-In a few seconds you must be able to listen to the latest tweets from your favourite tweeps.
-
-
+Then run the python file using : python twitclient.py <username1> <username2> ..
+The client reads the tweets accumulated in the last 60 seconds.
